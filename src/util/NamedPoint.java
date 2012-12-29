@@ -12,22 +12,22 @@ public class NamedPoint {
 	/**
 	 * The x position of the point.
 	 */
-	private int xPosition;
+	private int _xPosition;
 	
 	/**
 	 * The y position of the point.
 	 */
-	private int yPosition;
+	private int _yPosition;
 	
 	/**
 	 * The color of the point.
 	 */
-	private Color color;
+	private Color _color;
 	
 	/**
 	 * The name of the point.
 	 */
-	private String name;
+	private String _name;
 	
 	/**
 	 * Create a new NamedPoint with a name, xPosition and yPosition.
@@ -36,10 +36,10 @@ public class NamedPoint {
 	 * @param yPosition The y position of the point.
 	 */
 	public NamedPoint(String name, int xPosition, int yPosition) {
-		this.name = name;
-		this.xPosition = xPosition;
-		this.yPosition = yPosition;
-		this.color = new Color(1f, 1f, 1f, 0.7f);
+		this._name = name;
+		this._xPosition = xPosition;
+		this._yPosition = yPosition;
+		this._color = new Color(1f, 1f, 1f, 0.7f);
 	}
 
 	/**
@@ -47,7 +47,7 @@ public class NamedPoint {
 	 * @return The name of the point.
 	 */
 	public String getName() {
-		return name;
+		return _name;
 	}
 	
 	/** 
@@ -55,7 +55,7 @@ public class NamedPoint {
 	 * @return The x position of the point.
 	 */
 	public int getXPosition() {
-		return xPosition;
+		return _xPosition;
 	}
 	
 	/**
@@ -63,7 +63,7 @@ public class NamedPoint {
 	 * @param xPosition The x position of the point.
 	 */
 	public void setXPosition(int xPosition) {
-		this.xPosition = xPosition;
+		this._xPosition = xPosition;
 	}
 	
 	/**
@@ -71,7 +71,7 @@ public class NamedPoint {
 	 * @return The y position of the point.
 	 */
 	public int getYPosition() {
-		return yPosition;
+		return _yPosition;
 	}
 	
 	/**
@@ -79,7 +79,7 @@ public class NamedPoint {
 	 * @param yPosition The new y position of the point.
 	 */
 	public void setYPosition(int yPosition) {
-		this.yPosition = yPosition;
+		this._yPosition = yPosition;
 	}
 	
 	/**
@@ -87,7 +87,7 @@ public class NamedPoint {
 	 * @return The point's color.
 	 */
 	public Color getColor() {
-		return color;
+		return _color;
 	} 
 	
 	/**
@@ -95,7 +95,7 @@ public class NamedPoint {
 	 * @param color The color to set the point to.
 	 */
 	public void setColor(Color color) {
-		this.color = color;
+		this._color = color;
 	}
 	
 	/**
