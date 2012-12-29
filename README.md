@@ -10,4 +10,4 @@ A file format that has no significant use other than being easy to parse, 2d dat
 2d data is a set of points of the form "Name (Integer, Integer)". As of now, each point should be on its own line within the file.
 
 
-* See General Custer
+\* See General Custer
